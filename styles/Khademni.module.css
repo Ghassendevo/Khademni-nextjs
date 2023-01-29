@@ -1,0 +1,82 @@
+.header {
+    background-color: white;
+    border-bottom: 1px solid rgb(220, 216, 216);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inheader {
+    width: 50%;
+    display: flex;
+    justify-content: space-around
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.mainTwo {
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.index {
+    border-bottom: 2px solid black;
+    font-weight: 600;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.not_index {
+    border-bottom: none;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.addpost {
+    background-color: white;
+    width: 100% !important;
+    border: 1px solid rgb(234, 229, 229);
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addjobs {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.hr {
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.button {
+    background-color: #0070f3;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #0070f3;
+    color: white;
+    width: 80px;
+}
