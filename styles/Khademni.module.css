@@ -10,7 +10,8 @@
 .inheader {
     width: 50%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main {
@@ -37,6 +38,14 @@
     padding-bottom: 15px;
     cursor: pointer;
     margin-left: 20px;
+}
+
+.passworddiv {
+    background-color: #e5ecf7;
+}
+
+.bordered {
+    border-bottom: 1px solid rgb(228, 227, 227);
 }
 
 .not_index {

@@ -196,6 +196,24 @@ app.post('/updatepost', async(req, res) => {
         console.log(err)
     })
 })
+app.post('/updatepassword', async(req, res) => {
+    let e = req.body.data;
+    User.findByIdAndUpdate({ _id: e.id }, { $set: { password: e.password } }).then(succ => { res.send(true) })
+})
+app.post('/updateinfo', async(req, res) => {
+    let e = req.body.data;
+    Job.findByIdAndUpdate({ _id: e.id }, {
+        $set: {
+            fullname: e.fullname,
+            username: e.username,
+            email: e.email,
+            phone: e.phone,
+            city: e.city
+        }
+    }).then(succ => {
+        res.send(true)
+    })
+})
 server.listen(3001, () => {
     console.log('server running')
 })
